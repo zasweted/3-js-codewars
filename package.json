@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "keywords": [],
   "author": "Aleksandr Vasiljev",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^28.1.1",
     "nodemon": "^2.0.16"
   }
 }

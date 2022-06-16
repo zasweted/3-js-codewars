@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "calculate-bmi": "nodemon ./js/calculate-bmi.js",
     "test": "jest --watchAll"
   },
   "keywords": [],

@@ -6,6 +6,18 @@ function noSpace(x){
     return x.replace( /\s/g, '')
   
 }
+//-------------------------------------
+function removeExclamationMarks(s) {
+    return s.replace(/\!/g, '');
+}
+//-------------------------------------
+function removeExclamationMarks(s) {
+    return s.replace(/!/g, '');
+}
+//-------------------------------------
+function removeExclamationMarks(s) {
+    return s.split('!').join('');
+}
 
 //-------------------------------------
 function noSpace(x){

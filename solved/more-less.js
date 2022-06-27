@@ -18,15 +18,32 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 };
 
 //---------------------
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+const zeroFuel2 = (distanceToPump, mpg, fuelLeft) => {
     return distanceToPump/mpg <= fuelLeft
 };
 
 //---------------------
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+const zeroFuel3 = (distanceToPump, mpg, fuelLeft) => {
     if ((distanceToPump/mpg) <= fuelLeft){
       return true;
     }else{
       return false;
     }
+};
+
+//----------------------
+function peopleWithAgeDrink(old) {
+  if(old < 14){
+    return 'drink toddy'
+  }else{
+    if (old < 18){
+      return 'drink coke'
+    }else{
+      if(old < 21){
+        return 'drink beer'
+      }else{
+        return 'drink whisky'
+      }
+    }
+  }
 };

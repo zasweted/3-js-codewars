@@ -33,3 +33,16 @@ function betterThanAverage(classPoints, yourPoints) {
 function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classPoints.reduce((a, b) => a + b) / classPoints.length;
 }
+
+//----------------
+function find_average(array) {
+    let sum = 0;
+    if (array.length == 0){
+      return 0;
+    }else{
+      for (const x of array){
+        sum += x
+      }
+    return sum / array.length
+    }
+}

@@ -33,3 +33,8 @@ function correct(string) {
 function removeUrlAnchor(url){
     return url.replace(/\#.*/, '')
 }
+//----
+function removeUrlAnchor(url){
+    // TODO: complete
+    return url.replace(/#.*/gi,"");
+}

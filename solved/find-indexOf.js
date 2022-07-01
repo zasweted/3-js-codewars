@@ -20,3 +20,9 @@ function findNeedle(haystack) {
 function findNeedle(haystack) {
     return `found the needle at position ${haystack.indexOf('needle')}`;
 }
+//--------------------
+function unusualFive() {
+    let str = ['a', 'b', 'c', 'd', 'e', 'f'];
+    let i = str.indexOf('f');
+    return i
+  }
